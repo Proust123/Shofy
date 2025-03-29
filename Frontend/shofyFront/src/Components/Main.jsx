@@ -6,7 +6,8 @@ import Slider from './Slider'
 import 'flowbite';
 import FourthRow from './FourthRow'
 import Products from './Products'
-import CatProducts from './catProducts'
+// import CatProducts from './catProducts'
+import Footer from './Footer'
 
 
 const Main = () => {
@@ -19,7 +20,8 @@ const Main = () => {
             <Slider />
             <FourthRow />
             <Products />
-            <CatProducts/>
+            {/* <CatProducts/> */}
+            <Footer />
         </div>    
     </>
   )
